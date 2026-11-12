@@ -17,8 +17,8 @@ import java.util.Random;
 public class AutoTotemMod implements ClientModInitializer {
 
     // 20 tick = 1 saniye -> 1.0 ile 1.5 saniye arası
-    private static final int MIN_DELAY = 20;
-    private static final int MAX_DELAY = 30;
+    private static final int MIN_DELAY = 14;
+    private static final int MAX_DELAY = 25;
 
     private final Random random = new Random();
     private int waitTicks = -1;
